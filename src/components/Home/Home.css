@@ -1,0 +1,19 @@
+.home {
+  
+    flex-direction: column;
+    margin-top: 3em;
+  }
+
+
+.typer
+{
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+#resumeButton,#social
+{
+    margin-top: 2em;
+}
+
+

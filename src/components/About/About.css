@@ -1,0 +1,119 @@
+#profile
+{
+ height: 250px;
+ border-radius: 16px;
+}
+
+
+.about {
+  flex-direction: column;
+  margin-top: 3em;
+
+}
+
+.about__name {
+  color: var(--clr-primary);
+  font-weight: bold;
+}
+
+.about__role {
+  margin-top: 1.2em;
+}
+
+.about__desc {
+  font-size: 1rem;
+  max-width: 600px;
+  
+}
+
+
+.about__contact {
+  margin-top: 2.4em;
+}
+.about__contact
+{
+  display: flex;
+  justify-content: space-between;
+  
+  gap: 100px;
+}
+.about__contact>img
+{
+  width: auto;
+}
+.about .link--icon {
+  margin-right: 0.8em;
+}
+
+.about .btn--outline {
+  margin-right: 1em;
+}
+
+
+
+#interest
+{
+  line-height: 35px;
+
+}
+
+
+
+@media (max-width: 717px)
+{
+  
+  .about__contact
+  {
+    display: block;
+  }
+
+  .about__contact>div:first-child
+ { 
+   width: 300px; 
+   margin: auto;
+ }
+
+ .about__contact>div:last-child
+ {
+  margin-top: 20px;
+ }
+
+}
+
+
+
+
+
+.mainsection {
+  width: 100%;
+}
+
+.mainsection > :nth-child(1) {
+  margin-bottom: 2em;
+}
+
+.vertical-timeline-element-subtitle {
+  margin-top: 0.5em;
+  font-size: 0.9em;
+}
+
+.vertical-timeline-element-title {
+  font-size: 1.1em;
+  color: var(--clr-primary);
+}
+
+h2
+{
+  text-align: center;
+}
+
+#timeline
+{
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+h2
+{
+  text-align: center;
+}

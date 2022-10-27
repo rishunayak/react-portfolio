@@ -1,0 +1,78 @@
+.skills__list {
+  max-width: 450px;
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+ 
+}
+.about_skills
+{
+  color: var(--clr-primary);
+}
+
+.skills__list-item {
+  margin: 0.5em;
+  
+}
+#color
+{
+  color: var(--clr-primary);
+}
+.btn
+{
+  border-radius: 16px;
+}
+
+
+#container
+{
+  display: grid;
+ gap: 40px;
+  grid-template-columns: repeat(6,auto);
+}
+
+h5
+{
+  text-align: center;
+}
+
+@media (max-width: 999px) {
+ 
+#container
+{
+  grid-template-columns: repeat(4,auto);
+}
+  
+  
+}
+
+@media (max-width: 706px) {
+ 
+  #container
+  {
+    grid-template-columns: repeat(3,auto);
+  }
+    
+    
+  }
+
+  @media (max-width: 506px) {
+ 
+    #container
+    {
+      grid-template-columns: repeat(2,auto);
+    }
+      
+      
+    }
+
+
+
+#gitstatus
+{
+  margin-top: 40px;
+}
+
+

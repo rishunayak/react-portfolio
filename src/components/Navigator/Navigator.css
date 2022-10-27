@@ -1,0 +1,67 @@
+a>button
+{
+    border: 1px solid var(--clr-primary);
+    border-radius: 50%;
+    height: 12px;
+    width: 12px;
+    background-color: white;
+    margin-top: 20px;
+}
+
+
+#nav
+{
+   display: flex;
+   flex-direction: row;
+    bottom: 32.5%;
+    left: 98%;
+    position: fixed; 
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+   border-radius: 20px 0px 0px 20px;
+   padding: 10px 20px;
+        z-index: 3;
+        background-color: transparent;
+}
+
+.active>button
+{
+    background-color: #2a2f4c;
+    border: 1px solid #90a0d9;
+    
+}
+
+button
+{
+    display: flex;
+    margin-top: 10px;
+}
+
+@media (max-width: 900px)
+{
+   
+    #nav
+    {
+        
+        bottom: -1.5%;
+        left: 50%;
+    
+      
+        border-bottom: 0px;
+        overflow: hidden;
+        border-radius: 20px 20px 0px 0px;
+        padding: 0px 30px ;
+        z-index: 3;
+        transform: translate(-50%, -50%);
+      
+    }
+    button
+    {
+       display: inline-block;
+       margin-left: 10px;
+      
+      
+    }
+
+  
+}

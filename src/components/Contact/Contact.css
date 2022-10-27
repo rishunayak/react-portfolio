@@ -1,0 +1,20 @@
+.contact {
+  flex-direction: column;
+  
+}
+.about_contact
+{
+  color: var(--clr-primary);
+}
+#cont
+{
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+ 
+}
+
+#cont>a
+{
+  color: var(--clr-primary);
+}
