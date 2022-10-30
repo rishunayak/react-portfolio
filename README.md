@@ -5,14 +5,12 @@
 
 <h3 align="center"> Follow the Steps To Start </h3>
 
-<ul>
-  <li>npm i</li>
-  <li>npm i react-icons</li>
-   <li>npm i react-scrollspy</li>
-   <li>npm i react-vertical-timeline-component</li>
-   <li>npm i typewriter-effect</li>
-   <li>npm i @splidejs/react-splide</li>
-  <li>npm i react-github-calendar</li>
-  <li>npm start</li>
-  </ul>
+### `npm i`
+### `npm i react-icons`
+### `npm i react-scrollspy`
+### `npm i react-vertical-timeline-component`
+### `npm i typewriter-effect`
+### `npm i @splidejs/react-splide`
+### `npm i react-github-calendar`
+### `npm start`
 
